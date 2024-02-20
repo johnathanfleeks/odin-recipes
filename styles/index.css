@@ -4,6 +4,12 @@
 
 body {
     background-color: rgb(255, 164, 164);
+    /* border: solid 2px;
+    border-color: red yellow green blue; */
+}
+
+.h1-container {
+    padding: 100px;
 }
 
 h1 {
@@ -12,18 +18,34 @@ h1 {
     text-align: center;
 }
 
+.container {
+    height: auto;
+    width: 500px;
+    border: 2px solid;
+    border-color: red yellow green blue;
+    margin: 250px auto;
+    padding: 10px 10px 50px 0px;
+}
+
 ul {
     display: table;
     margin: 0 auto;
     text-align: center;
 }
 
+.ul-container {
+    position: absolute;
+    margin-left: 2.9em;
+}
+
 li {
     width: 325px;
     font-size: 18px;
     border: solid black 1px;
-    margin: 5px;
+    margin: 8px 0px;
+    padding: 5px;
     list-style-type: katakana;
+    text-align: center;
 }
 
 .dark {
